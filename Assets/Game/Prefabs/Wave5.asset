@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6df857a0b9592a43b6629816e7ae4e1, type: 3}
+  m_Name: Wave5
+  m_EditorClassIdentifier: 
+  waveInterval: 60
+  enemyDataList:
+  - enemyPrefab: {fileID: 1329326631678363967, guid: 039f24bd924b4de4cb82ec9b8372bdbd, type: 3}
+    percentage: 80
+  - enemyPrefab: {fileID: 7216245370819597151, guid: 0ec98cf8c8cb7ce4cba5eef98d7f821a, type: 3}
+    percentage: 20
